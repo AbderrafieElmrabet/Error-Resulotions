@@ -8,6 +8,6 @@ class ErrorController extends Controller
 {
     public function index()
     {
-        return view('Errorlndex');
+        return redirect()->route('xxx');
     }
 }
